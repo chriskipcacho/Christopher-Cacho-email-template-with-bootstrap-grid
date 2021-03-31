@@ -1,0 +1,21 @@
+html{
+    height:100%;
+}
+
+/* Change searchbar color to same as navbar */
+#search {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+}
+
+/* Override BS default text color */
+#search::placeholder {
+    color: white;
+}
+
+/* Subtle highlight of focused searchbar */
+#search:focus {
+    background-color: cornflowerblue;
+}
+
